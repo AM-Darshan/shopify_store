@@ -134,16 +134,16 @@ width: 100%;
   background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
-  height: 500px;
+  height: 450px;
   line-height: 0.9; 
-  width: 100%;
-
+  width: 90%;
+  margin-left: 60px;
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
 }
 .hero-banner-container button{
-   border-radius: 15px;
+  border-radius: 15px;
   padding: 10px 16px;
   background-color: #f02d34;
   color: white;
@@ -223,10 +223,14 @@ text-align: end;
   color: white;
   width: 100%;
   margin-top: 120px;
+  margin-left: 60px;
+  width:90%;
 }
 .banner-desc{
   display: flex ;
   justify-content: space-between;
+   /* margin-left: 60px;
+   width: 90%; */
 }
 .banner-desc button{
   border-radius: 15px;
@@ -252,7 +256,7 @@ text-align: end;
   /* top: -35%;
   left: 8%; */
   top: -25%;
-  left: 25%;
+  left: 20%;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -300,12 +304,13 @@ text-align: end;
   align-items: center;
   gap: 10px;
   justify-content: center;
-
+  
 }
 .footer-container .icons{
   font-size: 30px;
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
  .cart-heading{
   display: flex;
