@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <p>
-        2022@ AMD Headphones All rights reververd
+        2022@ AMD Headphones All rights reserverd
       </p>
       <p className='icons'>
         <Link href={'https://www.linkedin.com/in/am-darshan'}>

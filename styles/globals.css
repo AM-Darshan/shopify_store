@@ -103,10 +103,10 @@ width: 100%;
   width: 100%;
 }
 .product-card{
- cursor: pointer;
+  cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
- color: #324d67;
+  color: #324d67;
 
 }
 .product-card:hover{
@@ -284,11 +284,11 @@ text-align: end;
 
 }
 .cart-container{
-  height: 100vh;
-  width: 600px;
+  height: 105vh;
+  width: 550px;
   background-color: white;
   float: right;
-  padding: 40px 10px;
+  padding: 20px 10px;
   position: relative;
   
 }
@@ -337,7 +337,7 @@ text-align: end;
 }
 .empty-cart h3{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 .cancel{
   cursor: pointer;
@@ -345,8 +345,8 @@ text-align: end;
 .product-container{
   margin-top: 15px;
   overflow: auto;
-max-height: 70vh;
-padding: 20px 10px;
+  max-height: 70vh;
+  padding: 20px 10px;
 }
 .product{
   display: flex;
@@ -354,23 +354,23 @@ padding: 20px 10px;
   padding: 20px;
 }
 .product .cart-product-image{
-  width:180px ;
-  height: 150px;
-    border-radius: 15px;
+  width:150px;
+  height: 145px;
+  border-radius: 15px;
  background-color: #ebebeb;
 }
 .item-desc .flex{
   display: flex;
   justify-content: space-between;
-  width: 350px;
-   color: #324d67;
+  width: 290px;
+  color: #324d67;
 
 }
 .item-desc .bottom{
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .flex h5{
-  font-size: 24px;
+  font-size: 23px;
 }
 .flex h4{
   font-size: 20px;
@@ -380,7 +380,7 @@ padding: 20px 10px;
   justify-content: space-between;
 }
 .total h3{
-  font-size: 22px;
+  font-size: 20px;
 
 }
 .remove-item{
@@ -395,7 +395,7 @@ padding: 20px 10px;
   bottom: 12px;
   right: 5px;
 width: 100%;
-padding: 30px 65px;
+padding: 40px 65px;
 
 }
 
@@ -403,15 +403,16 @@ padding: 30px 65px;
   width: 400px;
   margin: auto;
 }
+
 .btn{
   width: 100%;
   max-width: 400px;
-  padding: 10px 12px;
+  padding: 8px 12px;
   border-radius: 15px;
   border: none;
   font-size: 20px;
-  margin-top: 10px;
-  margin-top: 40px;
+  /* margin-top: 10px; */
+  margin-top: 20px;
   text-transform: uppercase;
   background-color: #f02d34;
   color: #fff;
@@ -421,6 +422,9 @@ padding: 30px 65px;
 }
 .btn:hover{
   transform: scale(1.1,1.1);
+}
+.empty-cart-btn{
+  width:70%;
 }
 .product-detail-container{
   display: flex;
@@ -692,7 +696,7 @@ margin-top: 160px;
   }
   .cart-container{
     width: 415px;
-  padding: 4px;
+    padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
