@@ -614,7 +614,7 @@ padding: 6px;
   width: 900px;
   margin: auto;
   margin-top: 120px;
-  background-color: #dcdcdc;
+  background-color: #e8e8e8;
   padding: 50px;
   border-radius: 15px;
   display: flex;
@@ -784,8 +784,8 @@ padding: 6px;
 .success-wrapper, .cancel-wrapper{
   min-height: 69vh;
 }
-.success, .cancel {
-   width: 370px;
+.success{
+  width: 370px;
   margin-top: 100px;
   padding: 20px;
 }
@@ -799,4 +799,5 @@ padding: 6px;
   width: 300px;
   margin: auto;
 }
+
 }
