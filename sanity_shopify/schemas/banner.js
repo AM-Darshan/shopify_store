@@ -12,6 +12,14 @@ export default {
           },
       },
       {
+          name: 'footerImage',
+          title: 'Footer Image',
+          type: 'image',
+          options: {
+              hotspot: true,
+          }
+      },
+      {
           name: 'buttonText',
           title: 'ButtonText',
           type: 'string',

@@ -5,23 +5,22 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <p>
-        2022@ AMD Headphones All rights reserverd
+        &copy; 2022 AMD Headphones. All rights reserverd
       </p>
       <p className='icons'>
-        <Link href={'https://www.linkedin.com/in/am-darshan'}>
+        <a href={'https://www.linkedin.com/in/am-darshan'}>
             <AiOutlineLinkedin />
-        </Link>
-        <Link href={'#'}>
+        </a>
+        <a href='#'>
             <AiOutlineInstagram />
-        </Link>
-         <Link href={'#'}>
+        </a>
+         <a href='#'>
             <AiOutlineTwitter />
-        </Link>
-         <Link href={'https://github.com/AM-Darshan'} >
+        </a>
+         <a href={'https://github.com/AM-Darshan'} >
             <AiOutlineGithub />
-        </Link>
+        </a>
        
-        
       </p>
     </div>
   )
