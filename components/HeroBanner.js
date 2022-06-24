@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { urlFor } from '../lib/client';
+import { urlFor } from '../lib/Client';
 
 const HeroBanner = ({ heroBanner }) => {
   const { smallText, midText, largeText1, image, product, buttonText, desc } = heroBanner;
