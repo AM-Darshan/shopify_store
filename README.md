@@ -9,4 +9,5 @@ Build and Deploy a fully responsive Modern Full Stack Ecommerce application with
 ![stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)&nbsp;
 **& Sanity Database**
 
-[Deployment Link](https://shopify-store-amd.vercel.app/)
+### Deployed on Vercel
+[Link](https://shopify-store-amd.vercel.app/)
